@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [link](https://www.frontendmentor.io/solutions/interactive-rating-component-with-svelte-and-scss-TEFSkgY058) // TODO: Update Link
-- Live Site URL: [link](https://interactive-rating-component-nine-steel.vercel.app/) // TODO: Update Link
+- Solution URL: [link](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-svelte-and-scss-PEZrihiQVv)
+- Live Site URL: [link](https://nft-preview-card-component-mu-six.vercel.app/)
 
-### Built with // TODO:Update
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
