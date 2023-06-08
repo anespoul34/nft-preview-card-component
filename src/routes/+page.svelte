@@ -6,17 +6,17 @@
 </main>
 <footer class="attribution">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-  Coded by <a href="https://www.arthurnespoulous.com" target="_blank">AN</a>.
+  <a href="https://github.com/anespoul34">Coded</a> by <a href="https://www.arthurnespoulous.com" target="_blank">AN</a>. 
 </footer>
 
 <style lang="scss">
   main {
     padding: 20px;
     border-radius: 10px;
-    background-color: $purple;
+    background-color: $primary;
 
     h1 {
-      color: $white;
+      color: $secondary;
     }
   }
 </style>
