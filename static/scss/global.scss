@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 // Fonts
-$font: 'Poppins', sans-serif;
-$f-size: 32px;
+$font: 'Outfit', sans-serif;
+$f-size: 18px;
 
 // Primary Colors
-$primary: hsl(259, 100%,  65%);
-$secondary: hsl(0,100%, 67%);
+$primary: hsl(215, 51%, 70%);
+$secondary: hsl(178, 100%, 50%);
 
 // Neutral Colors
 $white: hsl(0, 0%, 100%);
-$light: hsl(0, 0%, 86%);
-$medium: hsl(0, 1%, 44%);
-$dark: hsl(0, 1%, 44%);
+$light: hsl(215, 32%, 27%);
+$medium: hsl(216, 50%, 16%);
+$dark: hsl(217, 54%, 11%);
 $black: hsl(0, 0%, 8%);
 
 :root {
@@ -23,58 +23,38 @@ $black: hsl(0, 0%, 8%);
   box-sizing: border-box;
 }
 
-input, label, p, span {
+h1, h2, p, span {
   font-family: $font;
+  margin: 0;
 }
-label {
-  letter-spacing: 3px;
-  font-size: 0.35rem;
-  font-weight: 700;
-  margin-bottom: 5px;
-  color: $medium;
-}
-input {
-  outline: none;
-  width: 140px;
-  height: 60px;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 700;
-  border: 1px solid $light;
-  color: $offBlack;
-  padding: 0 16px;
-}
-input::placeholder {
-  color: $medium;
-}
-input:hover, input:active, input:focus {
-  border: 1px solid $primary;
-  caret-color: $primary;
-}
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
-
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-color: $primary;
-  border: none;
-  transition: all 0.3s ease-in-out;
+h1 {
   cursor: pointer;
+  color: $white;
+  font-size: 1.5rem;
+  font-weight: 600;
 
-  img {
-    width: 64%;
+  &:hover {
+    color: $secondary;
   }
 }
-button:hover {
-  background-color: $offBlack;
+h2 {
+  color: $secondary;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+p {
+  color: $primary;
+  font-size: 1rem;
+  font-weight: 400;
+}
+span {
+  color: $white;
+  font-size: 1rem;
+  font-weight: 300;
+
+  &:hover {
+    color: $secondary;
+  }
 }
 
 .attribution {
@@ -83,7 +63,7 @@ button:hover {
   bottom: 5px;
   left: 0;
   font-family: $font;
-  color: $primary;
+  color: $white;
   text-align: center;
   font-size: 1rem;
   
